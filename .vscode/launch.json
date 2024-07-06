@@ -1,0 +1,27 @@
+{
+"configurations": [
+    {
+        "name": "auto_debug",
+        "type": "debugpy",
+        "request": "launch",
+        "module": "streamlit",
+        "args": [
+            "run",
+            "Create.py"
+        ],
+    },
+
+    {
+        "name": "pytest debug",
+        "type": "debugpy",
+        "request": "launch",
+        "module": "pytest",
+        "args": [
+            "test_add_product_to_cart.py"
+        ],
+        "console": "integratedTerminal",
+        "justMyCode": false
+    }
+    
+ ]
+}
